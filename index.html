@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Three</title>
+    <!-- font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4156ec81ec.js" crossorigin="anonymous"></script>
+     <!-- DaisyUI & tailwind cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                forfirstbtn: '#ABEF5F80',
+                forsectbtn: '#ABEF5F33',
+                navbtn: '#ABEF5F',
+                whitebtn: '#E9E9E9',
+                smallfont: '#737373',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body class="font-manrope">
+    <header>
+<!-- Nav bar start -->
+<nav class="lg:mt-12 lg:px-24 flex justify-between  mt-4 overflow-x-hidden">
+  <!-- first one -->
+  <div class="flex">
+   <div class="-rotate-45 w-8 h-8 bg-navbtn rounded-full text-center">
+     <i class="fa-solid fa-arrow-right mt-1 p-1"></i>
+   </div>
+ <a class="text-3xl font-bold">Rinterio</a>
+</div>
+
+<!-- second one -->
+<div class="lg:flex hidden">
+ <ul class="menu menu-horizontal px-1">            
+<li class="text-[1rem] font-semibold text-smallfont"><a>Home</a></li>
+<li class="text-[1rem] font-semibold text-smallfont hover:font-bold duration-300 ease-in-out"><a>Service</a></li>
+<li class="text-[1rem] font-semibold text-smallfont"><a>Portfolio</a></li>
+<li class="text-[1rem] font-semibold text-smallfont"><a>Blog</a></li> 
+<li class="text-[1rem] font-semibold text-smallfont"><a>Contact</a></li>
+</ul>
+</div>
+
+<!-- third one -->
+ <div class="lg:flex lg:space-x-4 hidden">
+  <div>
+   <button class="w-12 h-12 bg-whitebtn rounded-full">
+     <i class="fa-solid fa-magnifying-glass"></i>
+   </button>
+  </div>
+   <div>
+   <button class="w-12 h-12 bg-whitebtn rounded-full">
+   <i class="fa-solid fa-cart-shopping"></i>
+   </button>
+ </div>
+
+   <div class=" relative inline-flex  ">
+     <button class="w-52 h-14 bg-navbtn rounded-full ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 h-7 w-7 bg-black rounded-full text-white text-center mt-1 p-1 ml-2"></i></button>
+   </div>
+ </div>
+ <!-- fourth one -->
+ <div class="">
+   <button class="h-12 w-12  bg-whitebtn text-white rounded-full text-4xl ml-4">
+     <i class="fa-solid fa-bars"></i>
+   </button>
+  </div>
+ 
+</nav>
+
+   
+
+
+
+
+
+
+
+
+ <!-- Nav bar end -->
+
+ <!-- Banner Start -->
+  <!-- Banner End -->
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
